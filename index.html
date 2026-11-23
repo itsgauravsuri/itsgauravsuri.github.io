@@ -1,799 +1,998 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Gaurav Suri | Performance Marketer</title>
-
-<meta name="description"
-content="Performance Marketer, Meta Ads Specialist & WordPress Developer">
-
+<!-- ============ DOCUMENT METADATA ============ -->
+<!--
+  BEFORE PUBLISHING: get any required employer approval and anonymize internal dashboard
+  screenshots (no customer names, phone numbers or lead details).
+  Elements with class="draft" are hidden placeholders. Fill with VERIFIED details, then remove "hidden".
+  PHOTO (backend only): save your picture as assets/photo.jpg. Visitors cannot upload anything.
+  RESUME: assets/Gaurav_Suri_Resume_2026.pdf (replace the file, keep the name, to update).
+  FONT: loads Plus Jakarta Sans from Google Fonts; falls back to system fonts if offline.
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gaurav Suri | Performance Marketing &amp; Paid Media</title>
+<meta name="description" content="Gaurav Suri is a Performance Marketing professional in Delhi with 4+ years running Meta Ads and Google Ads. ROAS 4.4x to 8.9x at Capture A Trip; conversion rates up at International Youth Club.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gaurav Suri | Performance Marketing &amp; Paid Media">
+<meta property="og:description" content="Meta Ads and Google Ads, budget planning and conversion improvement. Results across Capture A Trip and International Youth Club.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232457f5'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EGS%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============ THEME VARIABLES ============ */
+:root{
+  --bg:#ffffff; --bg2:#f4f7fe; --ink:#14203b; --muted:#5b6780; --line:#e3e9f5;
+  --accent:#2457f5; --accent-d:#1a43c8; --accent-soft:#e9efff; --before:#c9d2e6;
+  --c:#2457f5; --cs:#e9efff; /* current accent colour, overridden by .c-* classes */
+  --font:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --r:18px; --max:1140px; --gap:clamp(16px,2.4vw,26px);
+  --shadow:0 1px 2px rgba(20,32,59,.04),0 10px 28px rgba(36,87,245,.07);
+}
+.c-blue{--c:#2457f5;--cs:#e9efff}
+.c-teal{--c:#0a8f80;--cs:#dff5f1}
+.c-amber{--c:#b86b00;--cs:#fff0d2}
+.c-violet{--c:#6845e0;--cs:#eeeaff}
+.c-coral{--c:#d6454d;--cs:#ffe8e9}
 
-<link rel="stylesheet" href="style.css">
+/* ============ GLOBAL STYLES ============ */
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.7 var(--font);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+b,strong{font-weight:600}
+h1,h2,h3{font-weight:600;line-height:1.18;letter-spacing:-.02em}
+h1{font-size:clamp(2.3rem,5.2vw,3.7rem);letter-spacing:-.03em}
+h2{font-size:clamp(1.75rem,3.4vw,2.4rem);margin-bottom:10px}
+h3{font-size:1.15rem}
+p{max-width:68ch}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(18px,4vw,32px)}
+section{padding:clamp(56px,8vw,96px) 0}
+.alt{background:var(--bg2)}
+.lead{color:var(--muted);font-size:1.05rem;margin-bottom:34px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:8px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:#fff;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 22px;border-radius:12px;font:500 .94rem var(--font);text-decoration:none;border:1.5px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;transition:background .2s,border-color .2s,transform .2s,box-shadow .2s}
+.btn:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:var(--shadow)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{background:var(--accent-d)}
+.btn svg{width:18px;height:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:clamp(20px,3vw,30px);box-shadow:var(--shadow)}
+.ico{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:var(--cs);color:var(--c);margin-bottom:14px}
+.ico svg{width:22px;height:22px}
+#progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#2457f5,#6845e0,#0a8f80);z-index:200}
+#toTop{position:fixed;right:18px;bottom:18px;width:46px;height:46px;border-radius:50%;border:0;background:var(--accent);color:#fff;cursor:pointer;box-shadow:var(--shadow);display:grid;place-items:center;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:60}
+#toTop.show{opacity:1;pointer-events:auto}
+#toTop:hover{transform:translateY(-2px)}
+#toTop svg{width:20px;height:20px}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+/* ============ NAVIGATION ============ */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{font-weight:600;font-size:1.15rem;letter-spacing:-.01em;text-decoration:none}
+.menu{display:flex;align-items:center;gap:2px;list-style:none;padding:0}
+.menu a:not(.btn){display:block;padding:8px 11px;border-radius:8px;text-decoration:none;color:var(--muted);font-weight:500;font-size:.92rem;transition:color .2s,background .2s}
+.menu a:not(.btn):hover,.menu a.active{color:var(--accent);background:var(--accent-soft)}
+.menu .btn{padding:9px 16px;margin-left:6px}
+.burger{display:none;background:#fff;border:1.5px solid var(--line);border-radius:10px;width:44px;height:44px;color:var(--ink);cursor:pointer}
+.burger svg{width:22px;height:22px}
 
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+/* ============ HERO ============ */
+.hero{background:radial-gradient(600px 300px at 90% 0%,rgba(104,69,224,.10),transparent 70%),radial-gradient(500px 300px at 0% 100%,rgba(10,143,128,.09),transparent 70%),linear-gradient(180deg,#eef3ff,#fff);padding:clamp(40px,6vw,76px) 0 clamp(40px,6vw,64px)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(28px,5vw,64px);align-items:center}
+.tag{display:inline-block;padding:6px 14px;border-radius:99px;background:var(--accent-soft);color:var(--accent-d);font-weight:500;font-size:.86rem;margin-bottom:18px}
+.hero h1 span{color:var(--accent)}
+.hero .lead{margin:18px 0 26px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.pill{padding:6px 14px;border-radius:99px;font-size:.84rem;font-weight:500;background:var(--cs);color:var(--c)}
+.photo-wrap{position:relative;justify-self:center;width:min(100%,350px)}
+.photo{aspect-ratio:4/5;border-radius:28px;overflow:hidden;background:linear-gradient(145deg,#2457f5,#6b8cff 60%,#8f7bff);box-shadow:0 20px 50px rgba(36,87,245,.25);display:grid;place-items:center;position:relative}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 12%}.photo .ph{font-size:5rem;font-weight:500;color:rgba(255,255,255,.95);letter-spacing:-.04em}
+.float{position:absolute;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 14px;box-shadow:var(--shadow);font-size:.78rem;color:var(--muted);line-height:1.3}
+.float b{display:block;font-size:1.3rem;font-weight:600;letter-spacing:-.02em}
+.float.a{left:-28px;bottom:60px}.float.a b{color:var(--accent)}
+.float.b{right:-20px;bottom:18px}.float.b b{color:#0a8f80}
 
+/* ============ STATS STRIP ============ */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);margin-top:-8px}
+.stat{text-align:center;padding:20px 12px}
+.stat b{display:block;font-size:2rem;font-weight:600;color:var(--c);letter-spacing:-.03em;line-height:1.15}
+.stat span{font-size:.86rem;color:var(--muted)}
+
+/* ============ RESULTS (TABS + METRICS) ============ */
+.panel+.panel{margin-top:clamp(44px,6vw,68px)}
+.panel-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin-bottom:18px}
+.panel-head{padding-left:14px;border-left:4px solid var(--c)}
+.panel-head h3{font-size:1.3rem}
+.badge{font-size:.8rem;font-weight:500;padding:3px 12px;border-radius:99px;background:var(--cs);color:var(--c)}
+.metrics{display:grid;grid-template-columns:repeat(6,1fr);gap:var(--gap)}
+.metric{grid-column:span 2;border-top:3px solid var(--c)}
+.metric.wide{grid-column:span 3}
+.metric h3{font-size:.92rem;font-weight:500;color:var(--muted);letter-spacing:0;margin-bottom:8px}
+.big{font-size:clamp(1.5rem,2.6vw,2rem);font-weight:600;letter-spacing:-.03em;line-height:1.15;margin-bottom:14px}
+.big em{font-style:normal;color:var(--c);margin:0 .22em;font-weight:500}
+.metric p{font-size:.88rem;color:var(--muted);margin-top:14px}
+.kv{display:grid;margin-top:4px}
+.kv div{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-top:1px solid var(--line);font-size:.92rem}
+.kv div:first-child{border-top:0}
+.kv span{color:var(--muted)}
+.kv b{text-align:right;font-weight:600}
+
+/* Shared bar comparison (bars are scaled from zero) */
+.cmp{display:grid;gap:10px}
+.cmp .row{display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center;font-size:.86rem}
+.cmp .row>span{color:var(--muted)}
+.cmp .row>b{font-variant-numeric:tabular-nums;min-width:64px;text-align:right}
+.bar{height:11px;background:#eef2fa;border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;width:var(--w);background:var(--before);border-radius:99px;transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.bar.after i{background:var(--c)}
+.js .bar i{width:0}
+.js .in .bar i{width:var(--w)}
+
+/* ============ CASE STUDIES ============ */
+.case{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,52px);padding:clamp(30px,4vw,48px) 0;border-top:1px solid var(--line)}
+.case:first-of-type{border-top:0;padding-top:0}
+.case h3{font-size:clamp(1.45rem,3vw,1.8rem);margin-bottom:12px}
+.case h4{font-size:.88rem;font-weight:600;color:var(--c);margin:20px 0 4px}
+.case ul{padding-left:20px;color:var(--muted)}
+.case li{margin:4px 0}
+.case p{color:var(--muted)}
+.case .viz{align-self:start;position:sticky;top:90px;border-top:3px solid var(--c)}
+.contrib{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin-top:16px}
+.evidence{margin-top:16px;border:1.5px dashed #b6c4e6;border-radius:12px;padding:14px 16px;font-size:.86rem;color:var(--muted);background:#fafcff}
+.evidence strong{color:var(--ink);display:block}
+.draft{margin-top:14px;border-left:3px solid #e0a526;padding:10px 14px;background:#fff7e2;font-size:.85rem;color:#7a5600}
+
+/* ============ WHAT I DO ============ */
+.cap{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap)}
+.cap .card{transition:transform .2s,box-shadow .2s}
+.cap .card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(20,32,59,.1)}
+.cap h3{margin-bottom:8px}
+.cap p{font-size:.92rem;color:var(--muted)}
+.proof{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:99px;background:var(--cs);color:var(--c);font-size:.8rem;font-weight:500}
+
+/* ============ HOW I WORK ============ */
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--gap);list-style:none;padding:0;counter-reset:s}
+.flow li{counter-increment:s;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:var(--shadow);border-top:3px solid var(--c)}
+.flow li::before{content:counter(s);display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--c);color:#fff;font-weight:600;font-size:.9rem;margin-bottom:12px}
+.flow h3{font-size:1rem;margin-bottom:6px}
+.flow p{font-size:.88rem;color:var(--muted)}
+.team{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap);margin-top:var(--gap)}
+.team h3{margin-bottom:6px}
+.team p{font-size:.92rem;color:var(--muted)}
+
+/* ============ LANDSCAPE ============ */
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 18px}
+.chip{padding:9px 18px;border:1px solid var(--line);border-radius:99px;background:#fff;font-weight:500;font-size:.93rem}
+.chip.more{border-style:dashed;color:var(--muted)}
+.chip.ch{background:var(--cs);border-color:transparent;color:var(--c);font-weight:600}
+.chips .chip:nth-child(4n+1):not(.ch){border-left:4px solid #2457f5}
+.chips .chip:nth-child(4n+2):not(.ch){border-left:4px solid #0a8f80}
+.chips .chip:nth-child(4n+3):not(.ch){border-left:4px solid #6845e0}
+.chips .chip:nth-child(4n+4):not(.ch){border-left:4px solid #f2a516}
+
+/* ============ EXPERIENCE ============ */
+.timeline{list-style:none;padding:0;position:relative;display:grid;gap:var(--gap)}
+.timeline::before{content:"";position:absolute;left:7px;top:10px;bottom:10px;width:2px;background:var(--line)}
+.job{position:relative;padding-left:38px}
+.job::before{content:"";position:absolute;left:0;top:30px;width:16px;height:16px;border-radius:50%;background:#fff;border:3px solid var(--c)}
+.job.current::before{background:var(--c);box-shadow:0 0 0 6px var(--cs)}
+.job .card{border-left:4px solid var(--c)}
+.job-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;margin-bottom:10px}
+.job-head h3{font-size:1.1rem}
+.job.current h3{font-size:1.3rem}
+.when{color:var(--c);font-weight:600;font-size:.88rem}
+.job.current .card{background:linear-gradient(180deg,#f3f7ff,#fff)}
+.job ul{padding-left:20px;color:var(--muted)}
+.job li{margin:5px 0}
+.job li strong{color:var(--ink)}
+.mini{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
+.nums{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 14px}
+.num{background:var(--cs);border-radius:12px;padding:8px 14px;font-size:.78rem;color:var(--muted);line-height:1.3}
+.num b{display:block;font-size:1rem;color:var(--c)}
+
+/* ============ PROJECTS ============ */
+.clients{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;list-style:none;padding:0;margin-top:26px}
+.client{border:1px solid var(--line);border-radius:14px;background:#fff;padding:16px 18px;box-shadow:var(--shadow);border-left:4px solid var(--c)}
+.client b{display:block;font-size:1.02rem}
+.client .slot{display:block;margin-top:10px;padding-top:10px;border-top:1.5px dashed #c9d5ee;font-size:.82rem;color:var(--muted)}
+   .client .shots{display:flex;gap:10px;align-items:flex-start;margin-top:12px}
+   .client .shot{margin:0;min-width:0}
+   .client .shot.desk{flex:1 1 0}
+   .client .shot.mob{flex:0 0 26%}
+   .client .frame{height:150px;display:grid;place-items:center;overflow:hidden;border-radius:10px;border:1px solid var(--line);background:var(--bg2)}
+   .client .frame img{display:block;max-width:100%;max-height:100%;width:auto;height:auto}
+   .client figcaption{margin-top:6px;text-align:center;font-size:.72rem;color:var(--muted)}
+   @media (max-width:640px){.client .frame{height:120px}}
+   .client .visit{display:inline-flex;margin-top:10px;padding:8px 14px;border-radius:10px;background:var(--cs);color:var(--c);font-weight:600;font-size:.86rem;text-decoration:none;transition:background .2s,color .2s}
+   .client .visit:hover{background:var(--c);color:#fff}
+
+/* ============ SKILLS AND EDUCATION ============ */
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap)}
+.cols h3{margin-bottom:12px}
+.skill{padding:12px 0;border-top:1px solid var(--line)}
+.skill b{display:block;font-size:.9rem;color:var(--c)}
+.skill span,.cols li,.edu p{color:var(--muted);font-size:.92rem}
+.cols ul{padding-left:18px}
+.cols li{margin:8px 0}
+.edu{padding:12px 0;border-top:1px solid var(--line)}
+.edu b{display:block}
+
+/* ============ ABOUT ============ */
+.about{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(24px,5vw,60px);align-items:start}
+.about .intro{font-size:clamp(1.15rem,2vw,1.4rem);line-height:1.55;color:var(--ink);margin-bottom:18px;font-weight:400}
+.about p{color:var(--muted);margin-bottom:14px}
+.facts{display:grid}
+.facts div{display:flex;gap:14px;padding:13px 0;border-top:1px solid var(--line);font-size:.92rem}
+.facts div:first-child{border-top:0}
+.facts span{color:var(--muted);min-width:92px}
+.facts b{font-weight:500}
+.path{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);margin-top:clamp(32px,5vw,52px);list-style:none;padding:0}
+.path li{background:#fff;border:1px solid var(--line);border-top:4px solid var(--c);border-radius:var(--r);padding:18px 20px;box-shadow:var(--shadow)}
+.path small{display:block;color:var(--c);font-weight:600;font-size:.8rem;margin-bottom:4px}
+.path b{display:block;font-size:1rem;margin-bottom:2px}
+.path span{font-size:.86rem;color:var(--muted)}
+
+/* ============ CONTACT & FOOTER ============ */
+.contact{text-align:center}
+.contact .card{padding:clamp(34px,6vw,64px);background:linear-gradient(135deg,#1a43c8,#2457f5 55%,#5b4ce0);border:0;color:#fff}
+.contact p{margin:0 auto 26px;color:#dbe5ff}
+.contact .cta-row{justify-content:center}
+.contact .btn{border-color:rgba(255,255,255,.7)}
+.contact .btn.primary{background:#fff;color:var(--accent-d);border-color:#fff}
+.contact .btn:not(.primary){background:transparent;color:#fff}
+.contact .btn:not(.primary):hover{background:rgba(255,255,255,.12)}
+#copyMsg{display:block;min-height:1.4em;margin:16px auto 0;font-size:.88rem;color:#dbe5ff}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.foot a{text-decoration:none;margin-left:16px}
+.foot a:hover{color:var(--accent)}
+
+/* ============ RESPONSIVE BREAKPOINTS ============ */
+@media (max-width:1020px){
+  .menu a:not(.btn){padding:8px 8px;font-size:.88rem}
+}
+@media (max-width:960px){
+  .hero-grid,.case,.about{grid-template-columns:1fr}
+  .case .viz{position:static}
+  .metric,.metric.wide{grid-column:span 3}
+  .flow{grid-template-columns:1fr 1fr}
+  .cap,.team,.cols{grid-template-columns:1fr 1fr}
+  .cols{grid-template-columns:1fr}
+  .clients{grid-template-columns:repeat(2,1fr)}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .path{grid-template-columns:1fr 1fr}
+  .photo-wrap{width:min(100%,300px)}
+}
+@media (max-width:860px){
+  .burger{display:grid;place-items:center}
+  .menu{display:none;position:absolute;top:68px;left:0;right:0;flex-direction:column;align-items:stretch;background:#fff;border-bottom:1px solid var(--line);padding:12px 18px 18px;box-shadow:var(--shadow)}
+  .menu.open{display:flex}
+  .menu a:not(.btn){padding:12px;font-size:.95rem}
+  .menu .btn{margin:8px 0 0}
+}
+@media (max-width:640px){
+  .metric,.metric.wide{grid-column:span 6}
+  .mini,.clients,.flow,.cap,.team,.path{grid-template-columns:1fr}
+  .float.a{left:-6px}.float.b{right:-6px}
+}
+/* ============ MOBILE POLISH (phones) ============ */
+body{-webkit-tap-highlight-color:transparent}
+.btn:active{transform:scale(.98)}
+html.menu-open{overflow:hidden}
+.dock{display:none}
+@media (hover:none){
+  .btn:hover,.cap .card:hover,#toTop:hover{transform:none;box-shadow:var(--shadow)}
+}
+@media (max-width:640px){
+  html{scroll-padding-top:68px}
+  body{padding-bottom:calc(74px + env(safe-area-inset-bottom,0px));font-size:16px}
+  section{padding:46px 0}
+  h1{font-size:2.15rem;line-height:1.15}
+  h2{font-size:1.65rem}
+  .lead{font-size:1rem;margin-bottom:24px}
+  .card{padding:18px;border-radius:16px}
+  .wrap{padding:0 16px}
+
+  /* nav */
+  .nav{height:60px}
+  .menu{top:60px;max-height:calc(100vh - 60px);max-height:calc(100dvh - 60px);overflow-y:auto;padding:6px 16px 20px}
+  .menu a:not(.btn){padding:15px 6px;font-size:1.02rem;border-bottom:1px solid var(--line);border-radius:0}
+  .menu .btn{margin-top:14px;padding:14px}
+  .burger{width:46px;height:46px}
+
+  /* hero */
+  .hero{padding:26px 0 36px}
+  .hero-grid{gap:22px}
+  .photo-wrap{order:-1;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:10px;justify-self:stretch}
+  .photo{grid-column:1/-1;justify-self:center;width:100%;max-width:230px;aspect-ratio:1/1;border-radius:22px;box-shadow:0 12px 28px rgba(36,87,245,.25)}  .float{position:static;padding:9px 12px;font-size:.74rem;border-radius:12px}
+  .float b{font-size:1.15rem}
+  .tag{font-size:.8rem;margin-bottom:14px}
+  .hero .lead{margin:14px 0 20px}
+  .hero .cta-row .btn{flex:1 1 calc(50% - 6px);padding:13px 10px}
+  .hero .cta-row .btn.primary{flex-basis:100%}
+  .pills{margin-top:20px;gap:6px}
+  .pill{font-size:.78rem;padding:5px 11px}
+
+  /* stats */
+  .stats{gap:4px;padding:10px;margin-top:0}
+  .stat{padding:14px 6px}
+  .stat b{font-size:1.5rem}
+  .stat span{font-size:.78rem;display:block;line-height:1.35}
+
+  /* results */
+  .panel-head{margin-bottom:14px}
+  .panel-head h3{font-size:1.15rem}
+  .badge{font-size:.74rem}
+  .metrics{gap:14px}
+  .big{font-size:1.5rem;margin-bottom:12px}
+  .cmp .row{grid-template-columns:48px 1fr auto;gap:10px}
+  .cmp .row>b{min-width:56px}
+  .panel+.panel{margin-top:40px}
+
+  /* case studies */
+  .case{gap:18px;padding:28px 0}
+  .case .viz{order:-1}
+  .case h3{font-size:1.4rem}
+
+  /* what I do + how I work */
+  .cap{gap:12px}
+  .cap .card{display:grid;grid-template-columns:44px 1fr;column-gap:14px;align-items:start}
+  .cap .ico{grid-row:1/span 3;margin:0}
+  .cap h3{margin-bottom:4px}
+  .cap .proof{justify-self:start;margin-top:10px}
+  .flow{gap:10px}
+  .flow li{display:grid;grid-template-columns:32px 1fr;column-gap:14px;padding:16px;align-items:start}
+  .flow li::before{grid-row:1/span 2;margin:0}
+  .flow h3{margin-bottom:2px}
+  .team{gap:12px}
+
+  /* destinations */
+  .chip{padding:8px 14px;font-size:.88rem}
+
+  /* experience */
+  .timeline{gap:14px}
+  .timeline::before{left:6px}
+  .job{padding-left:28px}
+  .job::before{width:14px;height:14px;top:24px}
+  .job-head h3{font-size:1.02rem}
+  .job.current h3{font-size:1.15rem}
+  .nums{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .num{padding:8px 10px}
+  .num b{font-size:.92rem}
+  .job ul{padding-left:18px;font-size:.95rem}
+
+  /* projects */
+  .clients{grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+  .client{padding:14px}
+  .client b{font-size:.95rem}
+  .client .slot{font-size:.76rem}
+
+  /* about */
+  .about .intro{font-size:1.1rem}
+  .facts div{flex-direction:column;gap:2px;padding:11px 0}
+  .facts span{min-width:0;font-size:.82rem}
+  .path{gap:10px}
+  .path li{border-top:1px solid var(--line);border-left:4px solid var(--c);padding:14px 16px}
+
+  /* contact + footer */
+  .contact .card{padding:30px 18px}
+  .contact .cta-row{flex-direction:column}
+  .contact .cta-row .btn{width:100%;padding:14px;word-break:break-all}
+  .foot{flex-direction:column;gap:14px;text-align:center}
+  .foot a{margin:0 8px}
+
+  /* sticky quick actions for recruiters */
+  .dock{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:55;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px))}
+  .dock .btn{padding:13px 8px;box-shadow:none}
+  #toTop{bottom:calc(84px + env(safe-area-inset-bottom,0px));right:14px;width:42px;height:42px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .js .bar i{width:var(--w)}
+}
+</style>
 </head>
 
 <body>
+<a class="skip" href="#main">Skip to content</a>
+<div id="progress" aria-hidden="true"></div>
 
-<header id="header">
-
-<div class="container nav">
-
-<a href="#" class="logo">
-
-<img src="assets/images/logo.svg" alt="Gaurav Logo">
-
-</a>
-
-<nav>
-
-<ul>
-
-<li><a href="#about">About</a></li>
-
-<li><a href="#services">Services</a></li>
-
-<li><a href="#experience">Journey</a></li>
-
-<li><a href="#projects">Projects</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-</nav>
-
-<!-- NEW -->
-
-<div class="nav-actions">
-
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-        <i class="fa-solid fa-sun"></i>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">Gaurav Suri</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
-
-    <a href="#contact" class="btn">
-        Let's Talk
-    </a>
-
-</div>
-</div>
-
+    <ul class="menu" id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#case-studies">Case Studies</a></li>
+      <li><a href="#what-i-do">What I Do</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="btn" href="assets/Gaurav_Suri_Resume_2026.pdf" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12m0 0l-5-5m5 5l5-5M5 20h14"/></svg>Resume</a></li>
+    </ul>
+  </div>
 </header>
 
-<!--==================================
-HERO SECTION
-===================================-->
+<main id="main">
 
-<section class="hero">
-
-    <div class="container hero-grid">
-
-        <div class="hero-left">
-
-            <p class="subtitle hero-subtitle">
-                Performance Marketer • Meta Ads Specialist
-            </p>
-
-            <h1 class="hero-title">
-                Hi, I'm
-                <span class="highlight">
-                    Gaurav Suri
-                </span>
-            </h1>
-
-            <p class="hero-text hero-description">
-                I'm Gaurav Suri, a Performance Marketer and WordPress Developer helping
-                brands generate quality leads, build premium websites and improve
-                business growth with data-driven marketing.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#projects" class="btn">
-                    View Projects
-                </a>
-
-                <a href="#contact" class="btn-outline">
-                    Hire Me
-                </a>
-
-            </div>
-
-            <div class="hero-stats">
-
-                <div>
-                    <h2 class="counter" data-target="20">0</h2>
-                    <p>Projects</p>
-                </div>
-
-                <div>
-                    <h2 class="counter" data-target="4">0</h2>
-                    <p>Years Experience</p>
-                </div>
-
-                <div>
-                    <h2 class="counter" data-target="15">0</h2>
-                    <p>Happy Clients</p>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="hero-right">
-
-            <img src="assets/images/profile.png.jpeg" alt="Gaurav Suri">
-
-        </div>
-
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="tag">Performance Marketing Executive at Capture A Trip</span>
+      <h1>Turning paid media into <span>measurable growth.</span></h1>
+      <p class="lead">I'm Gaurav, a performance marketer from Delhi with 4+ years of experience. I run Meta Ads and Google Ads, plan budgets, and work on lead quality and conversion with content and sales teams.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#results">Explore my results</a>
+        <a class="btn" href="assets/Gaurav_Suri_Resume_2026.pdf" download>Download Resume</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+      <div class="pills" aria-label="Key skills">
+        <span class="pill c-blue">Meta Ads</span><span class="pill c-teal">Google Ads</span><span class="pill c-violet">GA4</span><span class="pill c-amber">Google Tag Manager</span><span class="pill c-coral">CRM</span><span class="pill c-blue">ROAS tracking</span>
+      </div>
     </div>
-
+    <div class="photo-wrap">
+      <div class="photo">
+        <div class="ph" id="ph" aria-hidden="true">GS</div>
+        <img id="photo" alt="Portrait of Gaurav Suri" hidden>
+      </div>
+      <div class="float a"><b>8.9x</b>ROAS at Capture A Trip</div>
+      <div class="float b"><b>10.7%</b>Meta conversion rate at IYC</div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ STATS STRIP ============ -->
+<div class="wrap">
+  <div class="card stats reveal" role="list" aria-label="Career at a glance">
+    <div class="stat c-blue" role="listitem"><b>4+</b><span>Years in digital marketing</span></div>
+    <div class="stat c-teal" role="listitem"><b>18+</b><span>Travel destinations advertised</span></div>
+    <div class="stat c-violet" role="listitem"><b>₹1.3 Cr+</b><span>Monthly ad-driven revenue contributed to</span></div>
+    <div class="stat c-amber" role="listitem"><b>9+</b><span>Business websites built</span></div>
+  </div>
+</div>
 
-<!--==================================
-TECH STACK
-===================================-->
+<!-- ============ RESULTS (ALL EMPLOYERS, TABBED) ============ -->
+<section id="results">
+  <div class="wrap">
+    <h2>Results across my roles</h2>
+    <p class="lead">Every figure comes from my resume and is shown under the employer where it happened. Bars start at zero and show only the two stated values, so they are not trends over time.</p>
 
-<section class="tech-stack">
-
-    <div class="container">
-
-        <p class="tech-title">Tech Stack</p>
-
-        <h2>Powered by Industry-Leading Tools</h2>
-
+    <!-- Capture A Trip -->
+    <div class="panel c-blue" id="panel-cat">
+      <div class="panel-head"><h3>Capture A Trip</h3><span class="badge">Performance Marketing Executive, May 2026 to present</span></div>
+      <div class="metrics">
+        <article class="card metric wide reveal">
+          <h3>Return on ad spend (ROAS)</h3>
+          <div class="big">4.4x<em>to</em>8.9x</div>
+          <div class="cmp" role="img" aria-label="ROAS rose from 4.4x to 8.9x">
+            <div class="row"><span>Before</span><div class="bar"><i style="--w:49.4%"></i></div><b>4.4x</b></div>
+            <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>8.9x</b></div>
+          </div>
+          <p>Improved while the monthly advertising budget was being scaled.</p>
+        </article>
+        <article class="card metric wide reveal">
+          <h3>Monthly ad-driven revenue</h3>
+          <div class="big">₹40 lakh<em>to</em>₹1.3 crore+</div>
+          <div class="cmp" role="img" aria-label="Monthly ad-driven revenue rose from 40 lakh to 1.3 crore plus">
+            <div class="row"><span>Before</span><div class="bar"><i style="--w:30.8%"></i></div><b>₹40L</b></div>
+            <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>₹1.3Cr+</b></div>
+          </div>
+          <p>A business outcome I contributed to within a few months by scaling Meta and Google campaigns, optimizing budgets and improving performance. It was a team result.</p>
+        </article>
+        <article class="card metric reveal">
+          <h3>Monthly ad spend</h3>
+          <div class="big">₹9L<em>to</em>₹18.5L</div>
+          <div class="cmp" role="img" aria-label="Monthly ad spend rose from 9 lakh to 18.5 lakh rupees">
+            <div class="row"><span>Before</span><div class="bar"><i style="--w:48.6%"></i></div><b>₹9L</b></div>
+            <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>₹18.5L</b></div>
+          </div>
+          <p>Scaled to test new destinations, then ₹15 lakh went to the best-performing campaigns with ROAS kept above 7x.</p>
+        </article>
+        <article class="card metric reveal">
+          <h3>Lead-to-booking rate</h3>
+          <div class="big">0.61%<em>to</em>1.70%</div>
+          <div class="cmp" role="img" aria-label="Lead-to-booking rate rose from 0.61 percent to 1.70 percent">
+            <div class="row"><span>Before</span><div class="bar"><i style="--w:35.9%"></i></div><b>0.61%</b></div>
+            <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>1.70%</b></div>
+          </div>
+          <p>Through better lead quality and follow-up.</p>
+        </article>
+        <article class="card metric reveal">
+          <h3>Campaign coverage</h3>
+          <div class="big" style="color:var(--c)">18+ destinations</div>
+          <p>Run on Meta Ads and Google Ads, with ROAS held above 7x.</p>
+        </article>
+      </div>
     </div>
 
-    <!-- Top Row -->
-
-    <div class="tech-marquee">
-
-        <div class="tech-track left">
-
-            <!-- First Set -->
-
-            <div class="tech-item"><i class="fa-brands fa-meta"></i><span>Meta Ads</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-wordpress"></i><span>WordPress</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-elementor"></i><span>Elementor</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-chart-line"></i><span>Google Analytics</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-tags"></i><span>Google Tag Manager</span></div>
-
-            <!-- Duplicate -->
-
-            <div class="tech-item"><i class="fa-brands fa-meta"></i><span>Meta Ads</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-wordpress"></i><span>WordPress</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-elementor"></i><span>Elementor</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-chart-line"></i><span>Google Analytics</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-tags"></i><span>Google Tag Manager</span></div>
-
-        </div>
-
+    <!-- International Youth Club -->
+    <div class="panel c-teal" id="panel-iyc">
+      <div class="panel-head"><h3>International Youth Club</h3><span class="badge">Digital Marketing &amp; Growth Executive, Mar 2023 to Jan 2026</span></div>
+      <div class="metrics">
+        <article class="card metric wide reveal">
+          <h3>Meta Ads conversion rate</h3>
+          <div class="big">6.3%<em>to</em>10.7%</div>
+          <div class="cmp" role="img" aria-label="Meta Ads conversion rate rose from 6.3 percent to 10.7 percent">
+            <div class="row"><span>Before</span><div class="bar"><i style="--w:58.9%"></i></div><b>6.3%</b></div>
+            <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>10.7%</b></div>
+          </div>
+          <p>Through audience targeting, lead quality analysis, regular monitoring and better lead management.</p>
+        </article>
+        <article class="card metric wide reveal">
+          <h3>Google Ads conversion rate</h3>
+          <div class="big">5.6%<em>to</em>11.5%</div>
+          <div class="cmp" role="img" aria-label="Google Ads conversion rate rose from 5.6 percent to 11.5 percent">
+            <div class="row"><span>Before</span><div class="bar"><i style="--w:48.7%"></i></div><b>5.6%</b></div>
+            <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>11.5%</b></div>
+          </div>
+          <p>By tracking lead quality, reviewing landing pages, managing CRM follow-ups and optimizing campaigns.</p>
+        </article>
+        <article class="card metric reveal">
+          <h3>Monthly ad spend managed</h3>
+          <div class="kv">
+            <div><span>Meta Ads</span><b>₹1 to 1.5 lakh</b></div>
+            <div><span>Google Ads</span><b>₹20,000 to 30,000</b></div>
+          </div>
+          <p>Channels: Meta Ads, Google Ads, WhatsApp and Email.</p>
+        </article>
+        <article class="card metric reveal">
+          <h3>Sales team and margin</h3>
+          <div class="kv">
+            <div><span>Sales team</span><b>7 to 10 members</b></div>
+            <div><span>Gross margin</span><b>₹8 to 15 lakh</b></div>
+          </div>
+          <p>Worked closely with the team on lead conversion, supporting campaigns that generated this margin.</p>
+        </article>
+        <article class="card metric reveal">
+          <h3>Tools used</h3>
+          <div class="kv">
+            <div><span>CRM</span><b>TravoCRM, Zoho Bigin</b></div>
+            <div><span>Email</span><b>Mailchimp, MailerLite</b></div>
+          </div>
+        </article>
+      </div>
     </div>
 
-    <!-- Bottom Row -->
-
-    <div class="tech-marquee">
-
-        <div class="tech-track right">
-
-            <!-- First Set -->
-
-            <div class="tech-item"><i class="fa-brands fa-figma"></i><span>Figma</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-pen-ruler"></i><span>Canva</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-code"></i><span>VS Code</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-magnifying-glass"></i><span>SEO</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-bullseye"></i><span>Lead Generation</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-chart-column"></i><span>Google Ads</span></div>
-
-            <!-- Duplicate -->
-
-            <div class="tech-item"><i class="fa-brands fa-figma"></i><span>Figma</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-pen-ruler"></i><span>Canva</span></div>
-
-            <div class="tech-item"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-code"></i><span>VS Code</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-magnifying-glass"></i><span>SEO</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-bullseye"></i><span>Lead Generation</span></div>
-
-            <div class="tech-item"><i class="fa-solid fa-chart-column"></i><span>Google Ads</span></div>
-
-        </div>
-
+    <!-- Freelance -->
+    <div class="panel c-violet" id="panel-fl">
+      <div class="panel-head"><h3>Freelance web design and digital projects</h3></div>
+      <div class="metrics">
+        <article class="card metric wide reveal">
+          <h3>Websites built</h3>
+          <div class="big" style="color:var(--c)">9+ responsive websites</div>
+          <p>Business websites for clients across different industries. Client names are listed in the projects section below.</p>
+        </article>
+        <article class="card metric wide reveal">
+          <h3>What I handled</h3>
+          <div class="kv">
+            <div><span>Built</span><b>Responsive websites, landing pages</b></div>
+            <div><span>Managed</span><b>Website content, service pages, images</b></div>
+          </div>
+        </article>
+      </div>
     </div>
-
+  </div>
 </section>
 
-<!--==================================
-ABOUT
-===================================-->
+<!-- ============ FEATURED CASE STUDIES (CAPTURE A TRIP) ============ -->
+<section class="alt" id="case-studies">
+  <div class="wrap">
+    <h2>Featured case studies: Capture A Trip</h2>
+    <p class="lead">Three results from my current role. Supporting evidence will be added in the marked slots.</p>
 
-<section id="about" class="about">
-
-    <div class="container about-grid">
-
-        <div class="about-left">
-
-            <img src="assets/images/about.jpg" alt="Gaurav Suri">
-
+    <article class="case c-blue">
+      <div>
+        <h3>Doubling ROAS while the budget scaled</h3>
+        <h4>Business context</h4>
+        <p>Capture A Trip sells travel packages across 18+ destinations. Budgets were growing, so efficiency had to hold up as spend increased.</p>
+        <h4>Objective</h4>
+        <p>Improve return on ad spend while scaling the monthly advertising budget.</p>
+        <h4>My role</h4>
+        <p>I run the Meta Ads and Google Ads campaigns and contributed to this result as part of the wider team.</p>
+        <h4>Verified responsibilities</h4>
+        <ul>
+          <li>Running Meta Ads and Google Ads campaigns across destinations.</li>
+          <li>Optimizing budgets and campaign performance.</li>
+          <li>Coordinating with the content team on destination-specific ad creatives.</li>
+        </ul>
+        <!-- DRAFT: fill with verified details, then remove "hidden". -->
+        <div class="draft" hidden>[Add campaign period] &middot; [Add verified optimization actions] &middot; [Add campaign-specific learnings]</div>
+      </div>
+      <div class="card viz reveal">
+        <div class="big">4.4x<em>to</em>8.9x ROAS</div>
+        <div class="cmp" role="img" aria-label="ROAS before 4.4x, after 8.9x">
+          <div class="row"><span>Before</span><div class="bar"><i style="--w:49.4%"></i></div><b>4.4x</b></div>
+          <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>8.9x</b></div>
         </div>
-
-        <div class="about-right">
-
-            <span class="section-tag">
-                ABOUT ME
-            </span>
-
-            <h2>
-                Turning Ideas Into
-                <br>
-                Digital Growth.
-            </h2>
-
-            <p>
-                Hi, I'm <strong>Gaurav Suri</strong>, a Performance Marketer,
-                Meta Ads Specialist and WordPress Developer based in India.
-                I help startups and businesses generate quality leads,
-                improve conversions and build modern digital experiences.
-            </p>
-
-            <p>
-                From creating high-converting landing pages to managing
-                Meta advertising campaigns and building premium WordPress
-                websites, my focus is always on delivering measurable
-                business results.
-            </p>
-
-            <div class="about-info">
-
-                <div class="info-card">
-                    <h3>Experience</h3>
-                    <span>4+ Years</span>
-                </div>
-
-                <div class="info-card">
-                    <h3>Projects</h3>
-                    <span>20+</span>
-                </div>
-
-                <div class="info-card">
-                    <h3>Clients</h3>
-                    <span>15+</span>
-                </div>
-
-                <div class="info-card">
-                    <h3>Location</h3>
-                    <span>Delhi, India</span>
-                </div>
-
-            </div>
-
-            <a href="#contact" class="btn">
-                Let's Connect
-            </a>
-
+        <p class="contrib">ROAS change as stated on my resume, achieved while the monthly budget scaled. Monthly ad-driven revenue also grew from ₹40 lakh to ₹1.3 crore+, a result I contributed to alongside the team.</p>
+        <div class="evidence"><strong>Campaign evidence</strong>Approved Meta Ads and Google Ads screenshots will be added here.
+          <!-- [Insert approved Meta Ads screenshot] [Insert approved Google Ads report] [Add supporting spreadsheet] -->
         </div>
+      </div>
+    </article>
 
+    <article class="case c-teal">
+      <div>
+        <h3>Scaling spend and backing what worked</h3>
+        <h4>Business context</h4>
+        <p>New destinations needed testing, and spend had to move toward the campaigns that proved themselves.</p>
+        <h4>Objective</h4>
+        <p>Grow the budget to test new destinations, then concentrate it on the best performers without losing efficiency.</p>
+        <h4>My role</h4>
+        <p>I planned budgets and allocated spend based on campaign results.</p>
+        <h4>Verified responsibilities</h4>
+        <ul>
+          <li>Scaled monthly ad spend from ₹9 lakh to ₹18.5 lakh to test new destinations.</li>
+          <li>Subsequently allocated ₹15 lakh to the best-performing campaigns, based on results.</li>
+          <li>Maintained ROAS above 7x through budget planning.</li>
+        </ul>
+        <div class="draft" hidden>[Add campaign period] &middot; [Add verified optimization actions] &middot; [Add campaign-specific learnings]</div>
+      </div>
+      <div class="card viz reveal">
+        <div class="big">₹9L<em>to</em>₹18.5L / month</div>
+        <div class="cmp" role="img" aria-label="Monthly ad spend: 9 lakh before, 18.5 lakh after, with 15 lakh allocated to best-performing campaigns">
+          <div class="row"><span>Before</span><div class="bar"><i style="--w:48.6%"></i></div><b>₹9L</b></div>
+          <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>₹18.5L</b></div>
+          <div class="row"><span>Best</span><div class="bar after"><i style="--w:81.1%"></i></div><b>₹15L</b></div>
+        </div>
+        <p class="contrib">"Best" is the ₹15 lakh subsequently allocated to the best-performing campaigns. ROAS stayed above 7x through budget planning.</p>
+        <div class="evidence"><strong>Campaign evidence</strong>Approved budget reports or spreadsheets will be added here.
+          <!-- [Insert approved Google Ads report] [Add supporting spreadsheet] -->
+        </div>
+      </div>
+    </article>
+
+    <article class="case c-violet">
+      <div>
+        <h3>Turning more leads into bookings</h3>
+        <h4>Business context</h4>
+        <p>Ads generate leads, but revenue depends on how many convert. Lead quality and follow-up were the lever.</p>
+        <h4>Objective</h4>
+        <p>Raise the lead-to-booking rate by improving lead quality and follow-up processes.</p>
+        <h4>My role</h4>
+        <p>I worked across paid media, CRM and the sales team.</p>
+        <h4>Verified responsibilities</h4>
+        <ul>
+          <li>Managing CRM activities, tracking lead status and monitoring follow-ups.</li>
+          <li>Guiding the sales team on hot-lead prioritization, lead nurturing and follow-up strategies.</li>
+          <li>Coordinating with the content team on campaign requirements.</li>
+        </ul>
+        <div class="draft" hidden>[Add campaign period] &middot; [Add verified optimization actions] &middot; [Add campaign-specific learnings]</div>
+      </div>
+      <div class="card viz reveal">
+        <div class="big">0.61%<em>to</em>1.70%</div>
+        <div class="cmp" role="img" aria-label="Lead-to-booking rate before 0.61 percent, after 1.70 percent">
+          <div class="row"><span>Before</span><div class="bar"><i style="--w:35.9%"></i></div><b>0.61%</b></div>
+          <div class="row"><span>After</span><div class="bar after"><i style="--w:100%"></i></div><b>1.70%</b></div>
+        </div>
+        <p class="contrib">Lead-to-booking rate as stated on my resume. No lead counts or customer details are shown.</p>
+        <div class="evidence"><strong>Campaign evidence</strong>An anonymized CRM or funnel report will be added here.
+          <!-- [Insert approved Meta Ads screenshot] [Add supporting spreadsheet] -->
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ WHAT I DO ============ -->
+<section id="what-i-do">
+  <div class="wrap">
+    <h2>What I can do for your business</h2>
+    <p class="lead">The areas I work in, each tied to something I've done in a role.</p>
+    <div class="cap">
+      <article class="card c-blue"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11v2a1 1 0 001 1h2l5 4V6L6 10H4a1 1 0 00-1 1z"/><path d="M15.5 9a4 4 0 010 6"/><path d="M18.5 6.5a8 8 0 010 11"/></svg></div>
+        <h3>Paid media management</h3><p>Planning, running and optimizing Meta Ads and Google Ads campaigns to generate leads and customers.</p><span class="proof">18+ travel destinations</span></article>
+      <article class="card c-teal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></div>
+        <h3>Budget planning and scaling</h3><p>Scaling spend to test new markets, then moving budget to the campaigns that perform best.</p><span class="proof">₹9L to ₹18.5L, ROAS above 7x</span></article>
+      <article class="card c-violet"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></svg></div>
+        <h3>Lead quality and conversion</h3><p>Improving which leads come in and how they are followed up, so more of them convert.</p><span class="proof">0.61% to 1.70% lead-to-booking</span></article>
+      <article class="card c-amber"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <h3>Analytics and tracking</h3><p>Tracking performance and conversions so decisions rest on numbers, using GA4 and Google Tag Manager.</p><span class="proof">GA4, GTM, ROAS tracking</span></article>
+      <article class="card c-coral"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+        <h3>CRM and email marketing</h3><p>Tracking lead status and follow-ups in a CRM and supporting email campaigns.</p><span class="proof">TravoCRM, Zoho Bigin, Mailchimp, MailerLite</span></article>
+      <article class="card c-blue"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M3 9h18M8 21h8M12 17v4"/></svg></div>
+        <h3>Websites and landing pages</h3><p>Designing responsive business websites and landing pages, with SEO fundamentals and keyword research.</p><span class="proof">9+ websites built</span></article>
     </div>
-
+  </div>
 </section>
 
-<!--==================================
-SERVICES
-===================================-->
-
-<section id="services" class="services">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-tag">What I Do.</span>
-
-            <h2>Helping Brands Build, Grow & Scale.</h2>
-
-            <p>
-                I help businesses grow through strategic digital marketing,
-                performance advertising, and conversion-focused websites.
-            </p>
-
-        </div>
-
-        <div class="services-grid">
-
-            <div class="service-card">
-
-                <div class="service-number">01</div>
-
-                <h3>Performance Marketing</h3>
-
-                <p>
-                    High-converting Meta Ads campaigns focused on lead generation,
-                    sales growth and measurable ROI.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="service-number">02</div>
-
-                <h3>Meta Ads Management</h3>
-
-                <p>
-                    Complete Facebook & Instagram Ads strategy, setup,
-                    optimization and scaling for businesses.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="service-number">03</div>
-
-                <h3>WordPress Development</h3>
-
-                <p>
-                    Modern, responsive and conversion-focused websites
-                    built with WordPress & Elementor.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="service-number">04</div>
-
-                <h3>Landing Pages</h3>
-
-                <p>
-                    Landing pages designed to maximize conversions
-                    and improve campaign performance.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="service-number">05</div>
-
-                <h3>Lead Generation</h3>
-
-                <p>
-                    End-to-end lead generation systems using paid advertising,
-                    funnels and CRM integration.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="service-number">06</div>
-
-                <h3>Digital Strategy</h3>
-
-                <p>
-                    Marketing strategy, funnel planning and business consultation
-                    to accelerate sustainable growth.
-                </p>
-
-            </div>
-
-        </div>
-
+<!-- ============ HOW I WORK ============ -->
+<section class="alt" id="how-i-work">
+  <div class="wrap">
+    <h2>How I work</h2>
+    <p class="lead">A loop of watching the numbers, putting budget where it works, and keeping leads moving through to booking.</p>
+    <ol class="flow">
+      <li class="c-blue"><h3>Monitor and analyze</h3><p>Campaign monitoring and performance analysis.</p></li>
+      <li class="c-teal"><h3>Plan the budget</h3><p>Test new destinations, then allocate spend based on results.</p></li>
+      <li class="c-violet"><h3>Improve lead quality</h3><p>Review lead quality and work on conversion.</p></li>
+      <li class="c-amber"><h3>Track in the CRM</h3><p>Lead status and follow-up monitoring.</p></li>
+      <li class="c-coral"><h3>Align the teams</h3><p>Keep content and sales working from the same picture.</p></li>
+    </ol>
+    <div class="team">
+      <article class="card c-blue"><h3>With the content team</h3><p>I share campaign requirements and coordinate destination-specific ad creatives.</p></article>
+      <article class="card c-teal"><h3>With the sales team</h3><p>I guide hot-lead prioritization, lead nurturing and follow-up strategies.</p></article>
+      <article class="card c-violet"><h3>With the numbers</h3><p>I track ad spend, ROAS and lead quality, and use them to decide where budget goes.</p></article>
     </div>
-
+  </div>
 </section>
 
-<!--==================================
-PROFESSIONAL JOURNEY
-===================================-->
-
-<section id="experience" class="experience">
-
-    <div class="container">
-
-        <div class="experience-left">
-
-            <span class="section-tag">
-                EXPERIENCE
-            </span>
-
-            <h2>
-                My Professional
-                Journey.
-            </h2>
-
-            <p>
-                Every experience has helped me build stronger marketing,
-                business and technical skills while working with startups,
-                travel brands and digital businesses.
-            </p>
-
-        </div>
-
-        <div class="experience-right">
-
-            <div class="experience-item">
-
-                <span class="year">
-                    2026 — Present
-                </span>
-
-                <h3>
-                    Sales Executive
-                </h3>
-
-                <h4>
-                    Capture A Trip
-                </h4>
-
-                <p>
-                    Working closely with travelers, generating sales,
-                    understanding customer requirements and delivering
-                    memorable travel experiences.
-                </p>
-
-            </div>
-
-            <div class="experience-item">
-
-                <span class="year">
-                    2025 — Present
-                </span>
-
-                <h3>
-                    Co-Founder
-                </h3>
-
-                <h4>
-                    Let's Live To Travel
-                </h4>
-
-                <p>
-                    Managing operations, marketing strategy,
-                    customer support and group departures
-                    across India.
-                </p>
-
-            </div>
-
-            <div class="experience-item">
-
-                <span class="year">
-                    2024 — 2025
-                </span>
-
-                <h3>
-                    Founder
-                </h3>
-
-                <h4>
-                    Webnant
-                </h4>
-
-                <p>
-                    Designed WordPress websites,
-                    managed client projects and
-                    improved digital experiences.
-                </p>
-
-            </div>
-
-            <div class="experience-item">
-
-                <span class="year">
-                    2022 — 2023
-                </span>
-
-                <h3>
-                    Marketing & Growth Specialist
-                </h3>
-
-                <h4>
-                    International Youth Club
-                </h4>
-
-                <p>
-                    Worked on marketing campaigns,
-                    partnerships and community growth.
-                </p>
-
-            </div>
-
-        </div>
-
+<!-- ============ CAMPAIGN LANDSCAPE ============ -->
+<section id="landscape">
+  <div class="wrap">
+    <h2>Campaign landscape</h2>
+    <p class="lead">Destinations I run Meta Ads and Google Ads campaigns for at Capture A Trip. The results above are overall figures, not per-destination results.</p>
+    <div class="chips"><span class="chip ch c-blue">Meta Ads</span><span class="chip ch c-teal">Google Ads</span></div>
+    <div class="chips" role="list" aria-label="Travel destinations">
+      <span class="chip" role="listitem">Ladakh</span><span class="chip" role="listitem">Spiti</span><span class="chip" role="listitem">Bali</span><span class="chip" role="listitem">Thailand</span><span class="chip" role="listitem">Vietnam</span><span class="chip" role="listitem">Sri Lanka</span><span class="chip" role="listitem">Maldives</span><span class="chip" role="listitem">Bhutan</span><span class="chip" role="listitem">Japan</span><span class="chip" role="listitem">Europe</span><span class="chip more" role="listitem">and more, 18+ in total</span>
     </div>
-
+  </div>
 </section>
 
-<!--==================================
-PROJECTS
-===================================-->
-
-<section id="projects" class="projects">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-tag">
-                PROJECTS
-            </span>
-
-            <h2>
-                Featured Projects
-            </h2>
-
-            <p>
-                A selection of projects showcasing my expertise in
-                Performance Marketing, WordPress Development and
-                Digital Strategy.
-            </p>
-
+<!-- ============ PROFESSIONAL EXPERIENCE ============ -->
+<section class="alt" id="experience">
+  <div class="wrap">
+    <h2>Professional experience</h2>
+    <p class="lead">Results are listed under the employer where they happened and are not combined.</p>
+    <ul class="timeline">
+      <li class="job current c-blue">
+        <div class="card">
+          <div class="job-head"><h3>Capture A Trip, Performance Marketing Executive</h3><span class="when">May 2026 to present</span></div>
+          <div class="nums"><div class="num"><b>4.4x to 8.9x</b>ROAS</div><div class="num"><b>₹40L to ₹1.3Cr+</b>monthly revenue</div><div class="num"><b>₹9L to ₹18.5L</b>monthly spend</div><div class="num"><b>0.61% to 1.70%</b>lead-to-booking</div></div>
+          <ul>
+            <li>Run <strong>Meta Ads and Google Ads</strong> campaigns across <strong>18+ travel destinations</strong>.</li>
+            <li>Contributed to increasing monthly ad-driven revenue from <strong>₹40 lakh to ₹1.3 crore+</strong> within a few months.</li>
+            <li>Scaled monthly ad spend from <strong>₹9 lakh to ₹18.5 lakh</strong>, then allocated <strong>₹15 lakh</strong> to the best-performing campaigns while keeping <strong>ROAS above 7x</strong>.</li>
+            <li>Improved <strong>ROAS from 4.4x to 8.9x</strong> while scaling the budget.</li>
+            <li>Improved <strong>lead-to-booking rate from 0.61% to 1.70%</strong>.</li>
+            <li>Manage CRM activities, track lead status and monitor follow-ups.</li>
+            <li>Coordinate with the content team and guide the sales team on hot-lead prioritization, nurturing and follow-ups.</li>
+          </ul>
         </div>
-
-        <div class="projects-grid">
-
-            <!-- Project 1 -->
-
-            <div class="project-card">
-
-                <img src="assets/images/project1.jpg" alt="Travel Website">
-
-                <div class="project-content">
-
-                    <span>WordPress • UI/UX</span>
-
-                    <h3>Travel Website</h3>
-
-                    <p>
-                        Designed and developed a modern travel booking
-                        website focused on user experience and lead generation.
-                    </p>
-
-                    <a href="projects/travel-website.html" class="project-btn">
-                        View Case Study →
-                    </a>
-
-                </div>
-
-            </div>
-
-            <!-- Project 2 -->
-
-            <div class="project-card">
-
-                <img src="assets/images/project2.jpg" alt="Meta Ads">
-
-                <div class="project-content">
-
-                    <span>Performance Marketing</span>
-
-                    <h3>Meta Ads Campaign</h3>
-
-                    <p>
-                        Planned and optimized Facebook & Instagram campaigns
-                        to generate quality leads at lower acquisition costs.
-                    </p>
-
-                    <a href="projects/meta-ads.html" class="project-btn">
-                        View Case Study →
-                    </a>
-
-                </div>
-
-            </div>
-
-            <!-- Project 3 -->
-
-            <div class="project-card">
-
-                <img src="assets/images/project3.jpg" alt="Business Website">
-
-                <div class="project-content">
-
-                    <span>WordPress Development</span>
-
-                    <h3>Business Website</h3>
-
-                    <p>
-                        Built a responsive business website with premium UI,
-                        optimized speed and SEO-friendly structure.
-                    </p>
-
-                    <a href="projects/business-website.html" class="project-btn">
-                        View Case Study →
-                    </a>
-
-                </div>
-
-            </div>
-
+      </li>
+      <li class="job c-teal">
+        <div class="card">
+          <div class="job-head"><h3>International Youth Club, Digital Marketing &amp; Growth Executive</h3><span class="when">Mar 2023 to Jan 2026</span></div>
+          <div class="nums"><div class="num"><b>6.3% to 10.7%</b>Meta conversion</div><div class="num"><b>5.6% to 11.5%</b>Google conversion</div><div class="num"><b>₹1 to 1.5L</b>Meta spend / month</div><div class="num"><b>₹20K to 30K</b>Google spend / month</div><div class="num"><b>7 to 10</b>sales team size</div><div class="num"><b>₹8 to 15L</b>gross margin</div></div>
+          <ul>
+            <li>Managed <strong>Meta Ads, Google Ads, WhatsApp and Email</strong> campaigns to generate leads and acquire customers.</li>
+            <li>Improved Meta Ads conversion rates from <strong>6.3% to 10.7%</strong> through audience targeting, lead quality analysis, regular monitoring and better lead management.</li>
+            <li>Increased Google Ads conversion rates from <strong>5.6% to 11.5%</strong> by tracking lead quality, reviewing landing page performance, managing CRM follow-ups and optimizing campaigns.</li>
+            <li>Managed monthly ad spend of ₹1 to 1.5 lakh on Meta Ads and ₹20,000 to 30,000 on Google Ads.</li>
+            <li>Tracked leads and follow-ups in TravoCRM and Zoho Bigin CRM; supported email campaigns through Mailchimp and MailerLite.</li>
+            <li>Worked closely with a 7 to 10 member sales team, supporting campaigns that generated a gross margin of ₹8 to 15 lakh.</li>
+          </ul>
         </div>
+      </li>
+      <li class="job c-amber">
+        <div class="card">
+          <div class="job-head"><h3>ZO Space, Marketing Executive</h3><span class="when">Dec 2021 to Feb 2023</span></div>
+          <ul>
+            <li>Built and maintained the company website, updating content and service information.</li>
+            <li>Handled customer enquiries from the website, social media and other digital channels.</li>
+            <li>Created content for digital platforms and promotional activities.</li>
+            <li>Prepared PowerPoint presentations for clients, showcasing workspace solutions and company offerings.</li>
+            <li>Maintained customer records, tracked leads and followed up on enquiries through CRM.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="job c-coral">
+        <div class="mini">
+          <div class="card">
+            <div class="job-head"><h3>Infinix Tech Lab, Project Coordination Intern</h3><span class="when">Oct 2021 to Dec 2021</span></div>
+            <ul><li>Tracked project progress, updated task status and helped prepare client reports and project documentation.</li></ul>
+          </div>
+          <div class="card">
+            <div class="job-head"><h3>Hindustan Wellness, Sales (internship)</h3><span class="when">Feb 2021 to Apr 2021</span></div>
+            <ul><li>Managed customer inquiries and maintained CRM records.</li><li>Followed up with customers and assisted in lead conversion.</li><li>Resolved customer issues while ensuring a positive experience.</li></ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
+<!-- ============ FREELANCE WEB PROJECTS ============ -->
+<section id="projects">
+  <div class="wrap">
+    <h2>Freelance web design and digital projects</h2>
+    <p class="lead">I designed and built 9+ responsive business websites for clients across different industries, created landing pages, and managed website content, service pages and images.</p>
+    <ul class="clients">
+      <li class="client c-blue">
+     <b>Softebytes</b>
+     <div class="shots">
+  <figure class="shot desk">
+    <div class="frame"><img src="assets/softebytes-desktop.png" alt="Softebytes website on desktop" loading="lazy"></div>
+    <figcaption>Desktop view</figcaption>
+  </figure>
+  <figure class="shot mob">
+    <div class="frame"><img src="assets/softebytes-mobile.png" alt="Softebytes website on mobile" loading="lazy"></div>
+    <figcaption>Mobile view</figcaption>
+  </figure>
+</div>
+     <a class="visit" href="https://softebytes.com/" target="_blank" rel="noopener">Visit website</a>
+      </li>
+      <li class="client c-teal"><b>Empowering Presence</b><span class="slot">Preview coming soon</span></li>
+      <li class="client c-violet"><b>Kalaty Rugs</b><span class="slot">Preview coming soon</span></li>
+      <li class="client c-amber"><b>Bhadohi Carpets</b><span class="slot">Preview coming soon</span></li>
+      <li class="client c-coral"><b>Leo's Pizza</b><span class="slot">Preview coming soon</span></li>
+      <li class="client c-blue"><b>The Ambiente</b><span class="slot">Preview coming soon</span></li>
+      <li class="client c-teal"><b>Astre Vue</b><span class="slot">Preview coming soon</span></li>
+      <li class="client c-violet"><b>Da Rosin</b><span class="slot">Preview coming soon</span></li>
+      <li class="client c-amber"><b>Formforge</b><span class="slot">Preview coming soon</span></li>
+    </ul>
+    <!-- To add a preview: replace the .slot span with <a href="LIVE-URL" target="_blank" rel="noopener">View site</a> or an <img src="assets/name.jpg" alt="..."> -->
+  </div>
+</section>
+
+<!-- ============ SKILLS, EDUCATION & CERTIFICATIONS ============ -->
+<section class="alt" id="skills">
+  <div class="wrap">
+    <h2>Skills, education and certifications</h2>
+    <p class="lead">Exactly as listed on my resume.</p>
+    <div class="cols">
+      <div>
+        <h3>Core competencies</h3>
+        <div class="skill c-blue"><b>Paid advertising</b><span>Meta Ads, Google Ads, Campaign Optimization, Budget Management, ROAS Tracking</span></div>
+        <div class="skill c-teal"><b>Performance marketing</b><span>Lead Generation, Conversion Rate Optimization, Campaign Performance Tracking</span></div>
+        <div class="skill c-violet"><b>Analytics and tracking</b><span>Google Analytics 4 (GA4), Google Tag Manager, Conversion Tracking</span></div>
+        <div class="skill c-amber"><b>CRM and marketing</b><span>CRM Management, Lead Follow-ups, Email Marketing, Marketing Funnels</span></div>
+        <div class="skill c-coral"><b>Other skills</b><span>SEO Fundamentals, Keyword Research, MS Excel, Canva</span></div>
+      </div>
+      <div>
+        <h3>Education</h3>
+        <div class="edu"><b>Digital Marketing Certification</b><p>Delhi University. Covered SEO, social media strategy, funnel planning and analytics fundamentals.</p></div>
+        <div class="edu"><b>Bachelor of Arts (Hons) Political Science</b><p>Delhi University</p></div>
+      </div>
+      <div>
+        <h3>Courses and certifications</h3>
+        <ul>
+          <li>Google Digital Garage, Fundamentals of Digital Marketing</li>
+          <li>HubSpot Academy, Inbound Marketing &amp; Sales</li>
+          <li>Meta Digital Marketing Associate, Meta Blueprint</li>
+          <li>Google Analytics Certified, Google</li>
+          <li>Business Growth &amp; Strategy</li>
+        </ul>
+      </div>
     </div>
-
+  </div>
 </section>
 
-
-
-<section id="contact" class="contact">
-
-<div class="container">
-
-
-<div class="contact-wrapper">
-
-
-<div class="contact-info">
-
-
-<span class="section-tag">
-CONTACT
-</span>
-
-
-<h2>
-Let's Work Together.
-</h2>
-
-
-<p>
-Have a project in mind? Let's discuss how I can help your business grow.
-</p>
-
-
-<div class="contact-links">
-
-
-<a href="mailto:yourmail@gmail.com">
-📧 yourmail@gmail.com
-</a>
-
-
-<a href="https://www.linkedin.com/" target="_blank">
-🔗 LinkedIn
-</a>
-
-
-<a href="https://wa.me/91XXXXXXXXXX" target="_blank">
-💬 WhatsApp
-</a>
-
-
-</div>
-
-
-</div>
-
-
-
-
-<div class="contact-form">
-
-
-<form>
-
-
-<div class="form-row">
-
-<input type="text" placeholder="Your Name" required>
-
-<input type="email" placeholder="Your Email" required>
-
-</div>
-
-
-<div class="form-row">
-
-<input type="tel" placeholder="Phone Number">
-
-
-<select>
-
-<option>Select Service</option>
-
-<option>Meta Ads Management</option>
-
-<option>WordPress Website</option>
-
-<option>Landing Page</option>
-
-<option>Digital Marketing</option>
-
-</select>
-
-</div>
-
-
-<textarea placeholder="Your Message"></textarea>
-
-
-<button type="submit" class="btn">
-Send Message
-</button>
-
-
-</form>
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="wrap">
+    <h2>About me</h2>
+    <div class="about">
+      <div>
+        <p class="intro">I'm a performance marketer from Delhi. I like the part of paid media where the numbers meet the business: where the budget goes, which leads are worth chasing, and whether they turn into bookings.</p>
+        <p>I started in sales and project coordination internships in 2021, then moved into marketing at ZO Space, where I built the company website and handled customer enquiries. At International Youth Club I moved into paid ads and growth, running Meta Ads, Google Ads, WhatsApp and email campaigns.</p>
+        <p>Today I run Meta Ads and Google Ads for Capture A Trip across 18+ travel destinations. I also work with the content team on ad creatives and with the sales team on follow-ups, because conversion depends on both. Alongside work, I design and build websites for small businesses.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:6px">At a glance</h3>
+        <div class="facts">
+          <div><span>Based in</span><b>Delhi, India</b></div>
+          <div><span>Experience</span><b>4+ years</b></div>
+          <div><span>Current role</span><b>Performance Marketing Executive, Capture A Trip</b></div>
+          <div><span>Channels</span><b>Meta Ads, Google Ads, WhatsApp, Email</b></div>
+          <div><span>Education</span><b>BA (Hons) Political Science, Delhi University</b></div>
+        </div>
+      </div>
+    </div>
+    <ol class="path" aria-label="Career path">
+      <li class="c-coral"><small>2021</small><b>Internships</b><span>Sales at Hindustan Wellness; project coordination at Infinix Tech Lab</span></li>
+      <li class="c-amber"><small>Dec 2021 to Feb 2023</small><b>Marketing Executive</b><span>ZO Space</span></li>
+      <li class="c-teal"><small>Mar 2023 to Jan 2026</small><b>Digital Marketing &amp; Growth Executive</b><span>International Youth Club</span></li>
+      <li class="c-blue"><small>May 2026 to present</small><b>Performance Marketing Executive</b><span>Capture A Trip</span></li>
+    </ol>
+  </div>
 </section>
 
+<!-- ============ CONTACT ============ -->
+<section class="contact alt" id="contact">
+  <div class="wrap">
+    <div class="card">
+      <h2>Let's talk</h2>
+      <p>Open to performance marketing roles and freelance work. The quickest way to reach me is email.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="mailto:officialgauravsurii@gmail.com">officialgauravsurii@gmail.com</a>
+        <button class="btn" type="button" id="copyEmail">Copy email</button>
+        <a class="btn" href="https://www.linkedin.com/in/gauravsurii/" target="_blank" rel="noopener">LinkedIn profile</a>
+        <a class="btn" href="assets/Gaurav_Suri_Resume_2026.pdf" download>Download Resume</a>
+      </div>
+      <span id="copyMsg" role="status" aria-live="polite"></span>
+    </div>
+  </div>
+</section>
+</main>
 
+<nav class="dock" aria-label="Quick actions">
+  <a class="btn" href="assets/Gaurav_Suri_Resume_2026.pdf" download>Resume</a>
+  <a class="btn primary" href="mailto:officialgauravsurii@gmail.com">Email me</a>
+</nav>
 
-<!--==================================
-FOOTER
-===================================-->
+<button id="toTop" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 
+<!-- ============ FOOTER ============ -->
 <footer>
-
-<div class="container">
-
-<p>
-© 2026 Gaurav Suri. All Rights Reserved.
-</p>
-
-</div>
-
+  <div class="wrap foot">
+    <span>&copy; <span id="yr">2026</span> Gaurav Suri. Performance Marketing, Paid Media, Growth Strategy and Data &amp; Analytics.</span>
+    <nav aria-label="Footer"><a href="#results">Results</a><a href="#experience">Experience</a><a href="mailto:officialgauravsurii@gmail.com">Email</a><a href="https://www.linkedin.com/in/gauravsurii/" target="_blank" rel="noopener">LinkedIn</a></nav>
+  </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-<script src="script.js"></script>
+<!-- ============ JAVASCRIPT INTERACTIONS ============ -->
+<script>
+(function(){
+  var root=document.documentElement, burger=document.getElementById('burger'), menu=document.getElementById('menu');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  root.classList.add('js');
 
+  /* Mobile menu */
+  function setMenu(open){menu.classList.toggle('open',open);root.classList.toggle('menu-open',open);burger.setAttribute('aria-expanded',open);burger.setAttribute('aria-label',open?'Close menu':'Open menu');}
+  burger.addEventListener('click',function(){setMenu(!menu.classList.contains('open'));});
+  menu.addEventListener('click',function(e){if(e.target.closest('a'))setMenu(false);});
+  document.addEventListener('click',function(e){if(menu.classList.contains('open')&&!e.target.closest('header'))setMenu(false);});
+  window.addEventListener('resize',function(){if(window.innerWidth>860&&menu.classList.contains('open'))setMenu(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&menu.classList.contains('open')){setMenu(false);burger.focus();}});
+
+  /* Hero photo: loads assets/photo.jpg if it exists, otherwise keeps the GS initials. No visitor upload. */
+  var img=document.getElementById('photo'), ph=document.getElementById('ph');
+  img.addEventListener('load',function(){img.hidden=false;ph.hidden=true;});
+  img.src='assets/photo.png';
+
+  /* Bars animate in once when scrolled into view (static if reduced motion or no IntersectionObserver) */
+  var items=document.querySelectorAll('.reveal');
+  if(!reduce&&'IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.2});
+    items.forEach(function(el){io.observe(el);});
+  }else{items.forEach(function(el){el.classList.add('in');});}
+
+  /* Scroll progress bar and back-to-top button */
+  var prog=document.getElementById('progress'), top=document.getElementById('toTop'), tick=false;
+  function onScroll(){
+    var h=document.documentElement, max=h.scrollHeight-h.clientHeight, y=window.scrollY||h.scrollTop;
+    prog.style.width=(max>0?y/max*100:0)+'%';
+    top.classList.toggle('show',y>700); tick=false;
+  }
+  window.addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(onScroll);}},{passive:true});
+  top.addEventListener('click',function(){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});});
+  onScroll();
+
+  /* Copy email */
+  var cb=document.getElementById('copyEmail'), msg=document.getElementById('copyMsg'), mail='officialgauravsurii@gmail.com';
+  function done(t){msg.textContent=t;setTimeout(function(){msg.textContent='';},3000);}
+  cb.addEventListener('click',function(){
+    function fallback(){
+      var ta=document.createElement('textarea');ta.value=mail;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.opacity='0';
+      document.body.appendChild(ta);ta.select();
+      try{done(document.execCommand('copy')?'Email copied.':'Copy failed. Please copy it manually: '+mail);}catch(e){done('Copy failed. Please copy it manually: '+mail);}
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(mail).then(function(){done('Email copied.');},fallback);}else fallback();
+  });
+
+  /* Highlight current section in the nav */
+  if('IntersectionObserver' in window){
+    var links={};menu.querySelectorAll('a[href^="#"]').forEach(function(a){links[a.getAttribute('href').slice(1)]=a;});
+    var map={home:'home',results:'results','case-studies':'case-studies','what-i-do':'what-i-do','how-i-work':'what-i-do',landscape:'what-i-do',experience:'experience',projects:'experience',skills:'experience',about:'about',contact:'contact'};
+    var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){Object.keys(links).forEach(function(k){links[k].classList.remove('active');});var l=links[map[e.target.id]];if(l)l.classList.add('active');}});},{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(map).forEach(function(id){var s=document.getElementById(id);if(s)so.observe(s);});
+  }
+})();
+</script>
 </body>
-
 </html>
