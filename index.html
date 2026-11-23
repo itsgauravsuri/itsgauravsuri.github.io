@@ -7,7 +7,7 @@
   screenshots (no customer names, phone numbers or lead details).
   Elements with class="draft" are hidden placeholders. Fill with VERIFIED details, then remove "hidden".
   PHOTO (backend only): save your picture as assets/photo.jpg. Visitors cannot upload anything.
-  RESUME: assets/Gaurav_Suri_Resume_2026.pdf (replace the file, keep the name, to update).
+  RESUME: Gaurav_Suri_Resume_2026.pdf (replace the file, keep the name, to update).
   FONT: loads Plus Jakarta Sans from Google Fonts; falls back to system fonts if offline.
 -->
 <meta charset="utf-8">
@@ -87,7 +87,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdro
 .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(28px,5vw,64px);align-items:center}
 .tag{display:inline-block;padding:6px 14px;border-radius:99px;background:var(--accent-soft);color:var(--accent-d);font-weight:500;font-size:.86rem;margin-bottom:18px}
 .hero h1 span{color:var(--accent)}
-.hero .lead{margin:18px 0 26px}
+.hero h1{margin-bottom:6px}
+.hero .hero-sub{font-size:clamp(1.05rem,2vw,1.3rem);font-weight:500;color:var(--accent-d);margin:6px 0 16px;line-height:1.4}
+.hero .lead{margin:0 0 12px}
+.hero .lead2{margin:0 0 26px}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px}
 .pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
 .pill{padding:6px 14px;border-radius:99px;font-size:.84rem;font-weight:500;background:var(--cs);color:var(--c)}
@@ -212,6 +215,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdro
    @media (max-width:640px){.client .frame{height:120px}}
    .client .visit{display:inline-flex;margin-top:10px;padding:8px 14px;border-radius:10px;background:var(--cs);color:var(--c);font-weight:600;font-size:.86rem;text-decoration:none;transition:background .2s,color .2s}
    .client .visit:hover{background:var(--c);color:#fff}
+   .client .visit:not([href]){opacity:.55;cursor:not-allowed;pointer-events:none}
 
 /* ============ SKILLS AND EDUCATION ============ */
 .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap)}
@@ -417,9 +421,8 @@ html.menu-open{overflow:hidden}
       <li><a href="#case-studies">Case Studies</a></li>
       <li><a href="#what-i-do">What I Do</a></li>
       <li><a href="#experience">Experience</a></li>
-      <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a class="btn" href="assets/Gaurav_Suri_Resume_2026.pdf" download>
+      <li><a class="btn" href="Gaurav_Suri_Resume_2026.pdf" download>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12m0 0l-5-5m5 5l5-5M5 20h14"/></svg>Resume</a></li>
     </ul>
   </div>
@@ -431,12 +434,14 @@ html.menu-open{overflow:hidden}
 <section class="hero" id="home">
   <div class="wrap hero-grid">
     <div>
-      <span class="tag">Performance Marketing Executive at Capture A Trip</span>
-      <h1>Turning paid media into <span>measurable growth.</span></h1>
-      <p class="lead">I'm Gaurav, a performance marketer from Delhi with 4+ years of experience. I run Meta Ads and Google Ads, plan budgets, and work on lead quality and conversion with content and sales teams.</p>
+      <span class="tag">👋 Welcome to my portfolio</span>
+      <h1>Hii, I'm <span>Gaurav Suri.</span></h1>
+      <p class="hero-sub">Performance marketer from Delhi, turning paid media into measurable growth.</p>
+      <p class="lead">I've spent 4+ years in digital marketing, starting with sales and project coordination internships and moving into paid ads and growth. Today I run Meta Ads and Google Ads for Capture A Trip across 18+ travel destinations.</p>
+      <p class="lead lead2">I like the part of paid media where the numbers meet the business: where the budget goes, which leads are worth chasing, and whether they turn into bookings. Outside work, I design and build websites for small businesses.</p>
       <div class="cta-row">
         <a class="btn primary" href="#results">Explore my results</a>
-        <a class="btn" href="assets/Gaurav_Suri_Resume_2026.pdf" download>Download Resume</a>
+        <a class="btn" href="Gaurav_Suri_Resume_2026.pdf" download>Download Resume</a>
         <a class="btn" href="#contact">Contact me</a>
       </div>
       <div class="pills" aria-label="Key skills">
@@ -812,28 +817,19 @@ html.menu-open{overflow:hidden}
     <ul class="clients">
       <li class="client c-blue">
      <b>Softebytes</b>
-     <div class="shots">
-  <figure class="shot desk">
-    <div class="frame"><img src="assets/softebytes-desktop.png" alt="Softebytes website on desktop" loading="lazy"></div>
-    <figcaption>Desktop view</figcaption>
-  </figure>
-  <figure class="shot mob">
-    <div class="frame"><img src="assets/softebytes-mobile.png" alt="Softebytes website on mobile" loading="lazy"></div>
-    <figcaption>Mobile view</figcaption>
-  </figure>
-</div>
      <a class="visit" href="https://softebytes.com/" target="_blank" rel="noopener">Visit website</a>
       </li>
-      <li class="client c-teal"><b>Empowering Presence</b><span class="slot">Preview coming soon</span></li>
-      <li class="client c-violet"><b>Kalaty Rugs</b><span class="slot">Preview coming soon</span></li>
-      <li class="client c-amber"><b>Bhadohi Carpets</b><span class="slot">Preview coming soon</span></li>
-      <li class="client c-coral"><b>Leo's Pizza</b><span class="slot">Preview coming soon</span></li>
-      <li class="client c-blue"><b>The Ambiente</b><span class="slot">Preview coming soon</span></li>
-      <li class="client c-teal"><b>Astre Vue</b><span class="slot">Preview coming soon</span></li>
-      <li class="client c-violet"><b>Da Rosin</b><span class="slot">Preview coming soon</span></li>
-      <li class="client c-amber"><b>Formforge</b><span class="slot">Preview coming soon</span></li>
+      <li class="client c-teal"><b>Empowering Presence</b><a class="visit" target="_blank" rel="noopener">Visit website</a></li>
+      <li class="client c-violet"><b>Kalaty Rugs</b><a class="visit" target="_blank" rel="noopener">Visit website</a></li>
+      <li class="client c-amber"><b>Bhadohi Carpets</b><a class="visit" target="_blank" rel="noopener">Visit website</a></li>
+      <li class="client c-coral"><b>Leo's Pizza</b><a class="visit" target="_blank" rel="noopener">Visit website</a></li>
+      <li class="client c-blue"><b>The Ambiente</b><a class="visit" target="_blank" rel="noopener">Visit website</a></li>
+      <li class="client c-teal"><b>Astre Vue</b><a class="visit" target="_blank" rel="noopener">Visit website</a></li>
+      <li class="client c-violet"><b>Da Rosin</b><a class="visit" target="_blank" rel="noopener">Visit website</a></li>
+      <li class="client c-amber"><b>Formforge</b><a class="visit" target="_blank" rel="noopener">Visit website</a></li>
     </ul>
-    <!-- To add a preview: replace the .slot span with <a href="LIVE-URL" target="_blank" rel="noopener">View site</a> or an <img src="assets/name.jpg" alt="..."> -->
+    <!-- Link lagane ke liye: kisi bhi card ke <a class="visit"> me href="https://client-site.com/" add kar do, button apne aap active ho jayega.
+    Purana note: To add a preview: replace the .slot span with <a href="LIVE-URL" target="_blank" rel="noopener">View site</a> or an <img src="assets/name.jpg" alt="..."> -->
   </div>
 </section>
 
@@ -870,36 +866,6 @@ html.menu-open{overflow:hidden}
   </div>
 </section>
 
-<!-- ============ ABOUT ============ -->
-<section id="about">
-  <div class="wrap">
-    <h2>About me</h2>
-    <div class="about">
-      <div>
-        <p class="intro">I'm a performance marketer from Delhi. I like the part of paid media where the numbers meet the business: where the budget goes, which leads are worth chasing, and whether they turn into bookings.</p>
-        <p>I started in sales and project coordination internships in 2021, then moved into marketing at ZO Space, where I built the company website and handled customer enquiries. At International Youth Club I moved into paid ads and growth, running Meta Ads, Google Ads, WhatsApp and email campaigns.</p>
-        <p>Today I run Meta Ads and Google Ads for Capture A Trip across 18+ travel destinations. I also work with the content team on ad creatives and with the sales team on follow-ups, because conversion depends on both. Alongside work, I design and build websites for small businesses.</p>
-      </div>
-      <div class="card">
-        <h3 style="margin-bottom:6px">At a glance</h3>
-        <div class="facts">
-          <div><span>Based in</span><b>Delhi, India</b></div>
-          <div><span>Experience</span><b>4+ years</b></div>
-          <div><span>Current role</span><b>Performance Marketing Executive, Capture A Trip</b></div>
-          <div><span>Channels</span><b>Meta Ads, Google Ads, WhatsApp, Email</b></div>
-          <div><span>Education</span><b>BA (Hons) Political Science, Delhi University</b></div>
-        </div>
-      </div>
-    </div>
-    <ol class="path" aria-label="Career path">
-      <li class="c-coral"><small>2021</small><b>Internships</b><span>Sales at Hindustan Wellness; project coordination at Infinix Tech Lab</span></li>
-      <li class="c-amber"><small>Dec 2021 to Feb 2023</small><b>Marketing Executive</b><span>ZO Space</span></li>
-      <li class="c-teal"><small>Mar 2023 to Jan 2026</small><b>Digital Marketing &amp; Growth Executive</b><span>International Youth Club</span></li>
-      <li class="c-blue"><small>May 2026 to present</small><b>Performance Marketing Executive</b><span>Capture A Trip</span></li>
-    </ol>
-  </div>
-</section>
-
 <!-- ============ CONTACT ============ -->
 <section class="contact alt" id="contact">
   <div class="wrap">
@@ -910,7 +876,7 @@ html.menu-open{overflow:hidden}
         <a class="btn primary" href="mailto:officialgauravsurii@gmail.com">officialgauravsurii@gmail.com</a>
         <button class="btn" type="button" id="copyEmail">Copy email</button>
         <a class="btn" href="https://www.linkedin.com/in/gauravsurii/" target="_blank" rel="noopener">LinkedIn profile</a>
-        <a class="btn" href="assets/Gaurav_Suri_Resume_2026.pdf" download>Download Resume</a>
+        <a class="btn" href="Gaurav_Suri_Resume_2026.pdf" download>Download Resume</a>
       </div>
       <span id="copyMsg" role="status" aria-live="polite"></span>
     </div>
@@ -919,7 +885,7 @@ html.menu-open{overflow:hidden}
 </main>
 
 <nav class="dock" aria-label="Quick actions">
-  <a class="btn" href="assets/Gaurav_Suri_Resume_2026.pdf" download>Resume</a>
+  <a class="btn" href="Gaurav_Suri_Resume_2026.pdf" download>Resume</a>
   <a class="btn primary" href="mailto:officialgauravsurii@gmail.com">Email me</a>
 </nav>
 
@@ -952,7 +918,7 @@ html.menu-open{overflow:hidden}
   /* Hero photo: loads assets/photo.jpg if it exists, otherwise keeps the GS initials. No visitor upload. */
   var img=document.getElementById('photo'), ph=document.getElementById('ph');
   img.addEventListener('load',function(){img.hidden=false;ph.hidden=true;});
-  img.src='assets/photo.png';
+  img.src='photo.png';
 
   /* Bars animate in once when scrolled into view (static if reduced motion or no IntersectionObserver) */
   var items=document.querySelectorAll('.reveal');
